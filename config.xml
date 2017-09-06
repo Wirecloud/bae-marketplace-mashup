@@ -1,25 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<mashup xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="bae-marketplace" version="1.1">
+<mashup xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="bae-marketplace" version="0.1.1">
   <details>
-    <description>Business API Ecosystem dashboard</description>
+    <title>Business API Ecosystem dashboard</title>
     <homepage>https://github.com/Wirecloud/bae-marketplace-mashup</homepage>
-    <authors>Alex Rodriguez&lt;alex.rodriguez@conwet.com&gt;</authors>
+    <authors>Alejandro Rodriguez&lt;alex.rodriguez@conwet.com&gt;</authors>
     <email>wirecloud@conwet.com</email>
     <image></image>
     <smartphoneimage></smartphoneimage>
-    <description>Browse, adquire and install WireCloud components offered using the Business API Ecosystem service.</description>
+    <description>Browse, adquire and install WireCloud components from the Business API Ecosystem service</description>
     <longdescription>DESCRIPTION.md</longdescription>
     <changelog>doc/changelog.md</changelog>
-    <doc>doc/userguide.md</doc>
     <license>Apache-2.0</license>
     <issuetracker>https://github.com/Wirecloud/bae-marketplace-mashup/issues</issuetracker>
   </details>
+
+  <preferences>
+    <preference name="server_url" type="text" label="Server URL" description="URL of the Bussines API Ecosystem server" required="true" />
+  </preferences>
+
   <structure>
     <tab id="0" name="Offers">
       <resource id="245" name="bae-browser" title="BAE Browser" vendor="CoNWeT" version="0.1.1">
         <position x="0" y="0" z="0"/>
         <rendering height="67" width="20" layout="0"/>
-        <preferencevalue name="server_url" value="https://store.lab.fiware.org"/>
+        <preferencevalue name="server_url" value="%(params.server_url)" readonly="true"/>
       </resource>
     </tab>
     <wiring version="2.0">
