@@ -1,12 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<mashup xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="Bae Marketplace Mashup" version="1.1">
+<mashup xmlns="http://wirecloud.conwet.fi.upm.es/ns/macdescription/1" vendor="CoNWeT" name="bae-marketplace" version="1.1">
   <details>
-    <description>BAE Browser</description>
+    <description>Business API Ecosystem dashboard</description>
+    <homepage>https://github.com/Wirecloud/bae-marketplace-mashup</homepage>
+    <authors>Alex Rodriguez&lt;alex.rodriguez@conwet.com&gt;</authors>
+    <email>wirecloud@conwet.com</email>
+    <image></image>
+    <smartphoneimage></smartphoneimage>
+    <description>Browse, adquire and install WireCloud components offered using the Business API Ecosystem service.</description>
     <longdescription>DESCRIPTION.md</longdescription>
-    <authors>Mognom</authors>
+    <changelog>doc/changelog.md</changelog>
+    <doc>doc/userguide.md</doc>
+    <license>Apache-2.0</license>
+    <issuetracker>https://github.com/Wirecloud/bae-marketplace-mashup/issues</issuetracker>
   </details>
   <structure>
-    <tab id="0" name="Tab">
+    <tab id="0" name="Offers">
       <resource id="245" name="bae-browser" title="BAE Browser" vendor="CoNWeT" version="0.1.1">
         <position x="0" y="0" z="0"/>
         <rendering height="67" width="20" layout="0"/>
