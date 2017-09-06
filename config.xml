@@ -19,10 +19,11 @@
   </preferences>
 
   <structure>
+    <preferencevalue name="baselayout" value="{&quot;verticalmargin&quot;:3,&quot;smart&quot;:&quot;false&quot;,&quot;horizontalmargin&quot;:4,&quot;type&quot;:&quot;gridlayout&quot;,&quot;columns&quot;:20,&quot;cellheight&quot;:12,&quot;rows&quot;:12}"/>
     <tab id="0" name="Offers">
       <resource id="245" name="bae-browser" title="BAE Browser" vendor="CoNWeT" version="0.1.1">
         <position x="0" y="0" z="0"/>
-        <rendering height="67" width="20" layout="0"/>
+        <rendering height="12" width="20" layout="0"/>
         <preferencevalue name="server_url" value="%(params.server_url)" readonly="true"/>
       </resource>
     </tab>
