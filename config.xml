@@ -20,7 +20,7 @@
   <embedded>
     <resource name="bae-browser" src="macs/CoNWeT_bae-browser_0.1.1.wgt" vendor="CoNWeT" version="0.1.1"/>
     <resource name="bae-details" src="macs/CoNWeT_bae-details_0.1.1.wgt" vendor="CoNWeT" version="0.1.1"/>
-    <resource name="bae-search-filters" src="macs/CoNWeT_bae-search-filters_0.1.0.wgt" vendor="CoNWeT" version="0.1.0"/>
+    <resource name="bae-search-filters" src="macs/CoNWeT_bae-search-filters_0.1.1.wgt" vendor="CoNWeT" version="0.1.1"/>
   </embedded>
   <wiring/>
 </mashup>
