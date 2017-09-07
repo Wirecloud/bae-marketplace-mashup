@@ -37,13 +37,13 @@ If everything goes well, you will find a wgt file in the `dist` folder.
 
 ## Documentation
 
-Documentation about how to use this widget is available on the
+Documentation about how to use this mashup is available on the
 [User Guide](src/doc/userguide.md). Anyway, you can find general information
-about how to use widgets on the
+about how to use mashups on the
 [WireCloud's User Guide](https://wirecloud.readthedocs.io/en/stable/user_guide/)
 available on Read the Docs.
 
 ## Copyright and License
 
-Copyright (c) 2016 CoNWeT Lab., Universidad Politécnica de Madrid
+Copyright (c) 2016-2017 CoNWeT Lab., Universidad Politécnica de Madrid
 Licensed under the Apache-2.0 license.
